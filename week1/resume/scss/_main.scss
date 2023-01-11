@@ -1,0 +1,61 @@
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 10% 10%;
+    border-radius: 50%;
+}
+
+
+.container{
+    max-width: 70%;
+    margin: 50px auto;
+    .title{
+        display: flex;
+        .brief{
+            margin: 20px 50px;
+        }
+    }
+    .info_box{
+        margin: 60px 0;
+        .skill_section{
+            display: flex;
+            margin-top: 20px;
+            .skill_box{
+                max-width: 20%;
+                margin-right: 100px;
+                .skill_list li{
+                    margin-left: 20px;
+                    line-height: 2rem;
+                }
+                div{
+                    line-height: 1.75rem;
+                }
+            }
+        }
+        .work_experience_section .work_experience_box{
+            margin: 25px;
+            list-style: decimal;
+            div{
+                margin: 15px 0;
+            }
+            .time{
+                font-style: italic;
+            }
+        }
+    }
+}
+
+.text{
+    margin: 20px 0px;
+}
